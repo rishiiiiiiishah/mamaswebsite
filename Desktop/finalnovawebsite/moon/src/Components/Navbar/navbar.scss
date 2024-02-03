@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--whiteColorDeam);
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+
+
+    .logo {
+        color: var(--blackColor);
+    }
+
+    @media screen and (max-width:768px) {
+        .navbar {
+            position: absolute;
+            background: var(--whiteColorDeam);
+            height: max-content;
+            width: 80%;
+            border-radius: 1rem;
+            top: 6rem;
+        }
+    }
+
+}
