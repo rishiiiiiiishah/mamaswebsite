@@ -1,0 +1,22 @@
+.background-image {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../assets/6.png');
+  background-size: cover;
+  display: flex; /* Use flexbox to align items */
+  justify-content: flex-end; /* Adjust spacing between items */
+  align-items: center; /* Center items vertically */
+  padding-right: 200px;
+
+}
+
+.background-image h1 {
+  color: white;
+  font-size: 30px;
+  position: relative;
+  top: -300px;
+  margin-right: 0px; 
+  margin-bottom: 50px;
+  padding: 30px;
+}
