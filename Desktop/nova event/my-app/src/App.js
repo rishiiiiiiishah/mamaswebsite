@@ -1,12 +1,13 @@
 import "./component/Navbar"
 import Navbar from "./component/Navbar";
-import Main from "./Main";
+import FAQS from "./FAQs";
 
 function App() {
   return (
     <div>
  <Navbar/>
-    <Main/>
+
+    <FAQS/>
     </div>
   
   );

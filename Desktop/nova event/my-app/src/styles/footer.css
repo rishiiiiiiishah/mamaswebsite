@@ -1,0 +1,52 @@
+footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 200px;
+    background-image: url('../assets/7.webp');
+}
+
+.f-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.f-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.f-head h1 {
+    padding-left: 0.3rem;
+}
+
+.f-head p {
+    font: 300 1.2rem white;
+}
+
+.f-text h3 {
+    font: 300 2rem white;
+    margin: 0.8rem 0;
+}
+
+.f-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-link a {
+    text-decoration: none;
+    font: 900 1.2rem white;
+    color: white;
+}
+
+.f-link a:hover {
+    color: rgb(149, 149, 245);
+    transition: .3s;
+}

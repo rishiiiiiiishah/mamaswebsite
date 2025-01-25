@@ -4,7 +4,7 @@ import useOpenController from "./useOpenController";
 export const Acordion = ({ section }) => {
     const { isOpen, toggle } = useOpenController(false);
     return (
-        <div className="accordion-container">
+        <div className="accordion-container" id="faq">
             <ExpandableColumn 
                 question={section.question} 
                 isOpen={isOpen}

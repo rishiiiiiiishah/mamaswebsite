@@ -11,12 +11,19 @@
 
 }
 
-.background-image h1 {
+
+.background-image a {
   color: white;
   font-size: 30px;
   position: relative;
   top: -300px;
-  margin-right: 0px; 
+  margin-left: 20px; 
   margin-bottom: 50px;
-  padding: 30px;
+  padding: 20px;
+}
+
+
+.background-image a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  color: aqua;
 }
